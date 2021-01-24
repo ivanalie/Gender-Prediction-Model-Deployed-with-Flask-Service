@@ -1,8 +1,7 @@
 ## Gender Prediction ML Model and Deployment using a Flask Service
 This project demonstrates training and serving a machine learning model to assign a gender (male, female) to first names.
 
-## Project structure
-Important files to this project folder:
+## Important files to this project folder
 1. train_model.py - This code is for training ML model to predict gender based on first name. Model is trained using 'name_gender.csv' dataset.
 2. best_nn_model.h5 - This is the trained model output from running train_model.py. The accuracy of this model is 0.92 on validation data.
 3. requirements.txt - Package requirements for this project.
@@ -13,7 +12,7 @@ Important files to this project folder:
 8. name_gender.csv - This is the dataset used for model training.
 9. predictname.json - This is a json file with sample first name. User can also make the API call to request the predicted values by passing a json file.
 
-## Training the ML model
+## Training ML model
 A trained model (best_nn_model.h5) can be found in this project folder. If there is a need to train with different parameters, use the following command and change the optional param to a different value
 e.g. batch-size of 126, nepochs of 50, dropout of 0.3, ndims of 128
 ```
