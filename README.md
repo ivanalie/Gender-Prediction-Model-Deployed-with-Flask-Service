@@ -15,7 +15,7 @@ Important files to this project folder
 
 ## Training ML model
 A trained model (best_nn_model.h5) can be found in this project folder. If there is a need to train with different parameters, use the following command and change the optional param to a different value
-e.g. batch-size of 126, nepochs of 50, dropout of 0.3, ndims of 128
+e.g. changing batch-size to 126, nepochs to 50, dropout to 0.3, ndims to 128
 ```
 python train_model.py --train-file <path to csv of training dataset> --batch-size 256 --ndims 512 --nepochs 30 --dropout 0.2 --model-path <path to save model>
 ```
