@@ -25,7 +25,7 @@ e.g. changing batch-size to 126, nepochs to 50, dropout to 0.3, ndims to 128
 python train_model.py --train-file <path to csv of training dataset> --batch-size 256 --ndims 512 --nepochs 30 --dropout 0.2 --model-path <path to save model>
 ```
 
-## Installation/ Deploying and serving the ML model
+## Installation/ Deploying and serving ML model
 Ensure docker is running, and go to the project directory to build a docker image with the following command:
 ```
 docker build --tag predict-gender-docker .
