@@ -14,7 +14,7 @@ Important files to this project folder
 9. predictname.json - This is a json file with sample first name. User can also make the API call to request the predicted values by passing a json file.
 
 ## Training ML model
-Generate trained model (best_nn_model.h5) by running train_model.py. 
+Generate trained model (best_nn_model.h5) with train_model.py. 
 ```
 python train_model.py
 ```
