@@ -1,4 +1,5 @@
 ## Gender Prediction ML Model and Deployment using a Flask Service
+<i>Author: Ivana</i><br>
 This project demonstrates training and serving a machine learning model to assign a gender (male, female) to first names.
 
 ## Folder content
