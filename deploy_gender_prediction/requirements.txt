@@ -1,0 +1,5 @@
+pandas==1.1.5
+numpy==1.19.5
+flask
+scikit-learn
+tensorflow==2.4.0
