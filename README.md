@@ -38,7 +38,7 @@ python request.py
 ```
 Or <br>
 2. On browser, navigate to URL http://127.0.0.1:5000
-Or <br>
+<br> Or <br>
 3. Run the following command (by specifying path to the json file)
 ```
 curl -X POST -H "Content-Type: application/json" -d @predictname.json http://localhost:5000/predict_json 
