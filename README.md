@@ -1,7 +1,8 @@
 ## Gender Prediction ML Model and Deployment using a Flask Service
 This project demonstrates training and serving a machine learning model to assign a gender (male, female) to first names.
 
-## Important files to this project folder
+## Folder content
+Important files to this project folder
 1. train_model.py - This code is for training ML model to predict gender based on first name. Model is trained using 'name_gender.csv' dataset.
 2. best_nn_model.h5 - This is the trained model output from running train_model.py. The accuracy of this model is 0.92 on validation data.
 3. requirements.txt - Package requirements for this project.
@@ -35,9 +36,9 @@ Once the docker image is built and running, the serving app is ready to use. Try
 ```
 python request.py 
 ```
-Or
+Or <br>
 2. On browser, navigate to URL http://127.0.0.1:5000
-Or
+Or <br>
 3. Run the following command (by specifying path to the json file)
 ```
 curl -X POST -H "Content-Type: application/json" -d @predictname.json http://localhost:5000/predict_json 
