@@ -26,7 +26,7 @@ Ensure docker is running, and go to this project directory to build a docker ima
 docker build --tag predict-gender-docker .
 docker run --publish 5000:5000 predict-gender-docker
 ```
-OR
+Or
 ```
 docker-compose up --build
 ```
