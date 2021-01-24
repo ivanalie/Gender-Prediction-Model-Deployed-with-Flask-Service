@@ -26,7 +26,7 @@ python train_model.py --train-file <path to csv of training dataset> --batch-siz
 ```
 
 ## Installation/ Deploying and serving the ML model
-Ensure docker is running, and go to this project directory to build a docker image with the following command:
+Ensure docker is running, and go to the project directory to build a docker image with the following command:
 ```
 docker build --tag predict-gender-docker .
 docker run --publish 5000:5000 predict-gender-docker
